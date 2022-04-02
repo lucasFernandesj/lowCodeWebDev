@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div class="interface">
+        <div class="tag-content">
+                <input type="text" name="text" id="tag" placeholder="tag"><br>
+                <textarea name="content" id="content" cols="30" rows="10" placeholder="content"></textarea><br>
+                
+        </div>
+        <div class="css-wrap">
+
+            <button class="displayCSS"><h1>+CSS</h1></button><br>
+            <div class="css hidden">
+                <p>
+                    <input type="text" id="BackgroundColor" placeholder="BackgroundColor">
+
+                </p>
+                <p>
+                    <input type="text" id="color" placeholder="Color">
+
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="changeText hidden">
+        <input type="text" class="input-changeText" placeholder="                       New Text">
+        <button class="btn-changeText" onclick="changeText()">Update</button>
+    </div>
+    <div class="container"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
